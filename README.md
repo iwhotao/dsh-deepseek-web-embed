@@ -1,3 +1,4 @@
+<img width="2048" height="1280" alt="1" src="https://github.com/user-attachments/assets/a89d396d-35ef-45ed-afc9-d6ccbb0d2750" />
 # DeepSeek Web for DeepSeek Harness
 
 > A full-page **chat.deepseek.com** tab inside DSH Desktop. Your own account, your own browser session, completely separate from DSH conversations.
