@@ -1,0 +1,54 @@
+{
+  "name": "dsh-deepseek-web-embed",
+  "version": "1.0.2",
+  "description": "Embed chat.deepseek.com in a dedicated DeepSeek Harness page. Your own account, your own browser session, fully separate from DSH conversations.",
+  "license": "MIT",
+  "author": "whotao",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whotao/dsh-deepseek-web-embed.git"
+  },
+  "homepage": "https://github.com/whotao/dsh-deepseek-web-embed",
+  "bugs": {
+    "url": "https://github.com/whotao/dsh-deepseek-web-embed/issues"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "deepseek-chat",
+    "webview",
+    "electron"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar",
+        "@deepseek-ai/dsh-client-ui-session",
+        "@deepseek-ai/dsh-client-ui-workspace",
+        "@deepseek-ai/dsh-client-shortcuts"
+      ]
+    }
+  }
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: deepseek-web-embed
+      name: 'dsh-deepseek-web-embed'

@@ -1,0 +1,33 @@
+# Public name and metadata. The DSH runtime does not depend on this file;
+# it only documents how the published package is meant to be consumed.
+name: dsh-deepseek-web-embed
+description: Embed chat.deepseek.com as a full-page tab in DeepSeek Harness.
+license: MIT
+homepage: https://github.com/whotao/dsh-deepseek-web-embed
+repository: https://github.com/whotao/dsh-deepseek-web-embed
+bugs: https://github.com/whotao/dsh-deepseek-web-embed/issues
+
+# Install target
+# Run `npm run rename-package` (or follow docs/PUBLISHING.md) before publishing.
+published-package: dsh-deepseek-web-embed
+
+# Compatibility
+dsh:
+  tested-with: "0.2.1-rc.3"
+  profile: desktop
+  platform: web
+  requires:
+    - "@deepseek-ai/dsh-client-ui-layout"
+    - "@deepseek-ai/dsh-client-ui-sidebar"
+    - "@deepseek-ai/dsh-client-ui-session"
+    - "@deepseek-ai/dsh-client-ui-workspace"
+    - "@deepseek-ai/dsh-client-shortcuts"
+
+# Keywords suggested for the GitHub repo / npm listing
+keywords:
+  - deepseek-harness
+  - dsh
+  - dsh-plugin
+  - deepseek-chat
+  - webview
+  - electron

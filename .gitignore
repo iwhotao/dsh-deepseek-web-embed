@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+.pnpm-store/
+
+# Build output
+dist/
+lib/
+*.tgz
+*.tar.gz
+
+# Logs and local state
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DSH_ASSISTANT_USAGE_*
+.dsh/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local secrets (never commit captured login state)
+*.token
+*.cookie
+credentials.json
