@@ -4,7 +4,7 @@
 
 插件现在以 `@local/deepseek-web-embed` 的本地包名运行在 desktop profile 里。要公开发布，需要把包名统一成一个公开名字，否则别人安装后模块 id 对不上。
 
-下面所有示例默认最终包名为 **`dsh-deepseek-web-embed`**，GitHub 用户名用 `whotao` 演示，请替换成你自己的。
+下面所有示例默认最终包名为 **`dsh-deepseek-web-embed`**，GitHub 用户名用 `iwhotao` 演示，请替换成你自己的。
 
 ---
 
@@ -37,8 +37,8 @@ Copy-Item package.json.publish.json package.json -Force
 | `private` | `true` | 已移除 |
 | `description` | 同 | 同 |
 | `license` | 无 | `MIT` |
-| `author` | 无 | `whotao` |
-| `repository` | 无 | `git+https://github.com/whotao/dsh-deepseek-web-embed.git` |
+| `author` | 无 | `iwhotao` |
+| `repository` | 无 | `git+https://github.com/iwhotao/dsh-deepseek-web-embed.git` |
 | `homepage` / `bugs` / `keywords` | 无 | 已补 |
 
 如果你不想改包名、只在 GitHub 上放源码，可以跳过这一节；但这样别人无法通过 `dsh plugin add` 安装，只能 clone 后本地 link。
@@ -101,7 +101,7 @@ tag.dataset.plugin = '@local/deepseek-web-embed';
 
 ### 3.2 本地初始化
 
-本机 git 身份已是 `whotao <2495169842@qq.com>`，无需再设。
+本机 git 身份已是 `iwhotao <2495169842@qq.com>`，无需再设。
 
 ```powershell
 cd C:\Users\24951\Documents\deepseek-harness\default-workspace\deepseek-web-embed
@@ -109,7 +109,7 @@ git init
 git add .
 git commit -m "feat: DeepSeek web chat as a full-page DSH tab"
 git branch -M main
-git remote add origin https://github.com/whotao/dsh-deepseek-web-embed.git
+git remote add origin https://github.com/iwhotao/dsh-deepseek-web-embed.git
 git push -u origin main
 ```
 
@@ -126,7 +126,7 @@ HTTPS 推送推荐用 Personal Access Token：
 ```powershell
 ssh-keygen -t ed25519 -C "2495169842@qq.com"
 # 把 ~/.ssh/id_ed25519.pub 加到 GitHub → Settings → SSH and GPG keys
-git remote set-url origin git@github.com:whotao/dsh-deepseek-web-embed.git
+git remote set-url origin git@github.com:iwhotao/dsh-deepseek-web-embed.git
 ```
 
 ### 3.4 检查提交内容
@@ -193,7 +193,7 @@ GitHub → Releases → *Draft a new release*：
 ### 从 GitHub 安装
 
 ```powershell
-& 'D:\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add github:whotao/dsh-deepseek-web-embed
+& 'D:\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add github:iwhotao/dsh-deepseek-web-embed
 ```
 
 装完确认 profile 的 `package.json` 中 `dsh.profile.bundles` 出现 `dsh-deepseek-web-embed`，重启 DSH。

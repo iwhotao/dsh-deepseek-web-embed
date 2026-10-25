@@ -46,7 +46,7 @@ Webview embeds the real page; you sign in and chat manually. The plugin only han
 ### 从 GitHub 安装 / From GitHub
 
 ```powershell
-& 'D:\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add github:whotao/dsh-deepseek-web-embed
+& 'D:\DeepSeek Harness\resources\runtime\cli\bin\dsh.cmd' plugin --profile desktop add github:iwhotao/dsh-deepseek-web-embed
 ```
 
 安装后确认 profile 的 `package.json` 中 `dsh.profile.bundles` 出现 `dsh-deepseek-web-embed`，然后重启 DSH。

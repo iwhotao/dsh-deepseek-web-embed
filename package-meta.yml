@@ -3,9 +3,9 @@
 name: dsh-deepseek-web-embed
 description: Embed chat.deepseek.com as a full-page tab in DeepSeek Harness.
 license: MIT
-homepage: https://github.com/whotao/dsh-deepseek-web-embed
-repository: https://github.com/whotao/dsh-deepseek-web-embed
-bugs: https://github.com/whotao/dsh-deepseek-web-embed/issues
+homepage: https://github.com/iwhotao/dsh-deepseek-web-embed
+repository: https://github.com/iwhotao/dsh-deepseek-web-embed
+bugs: https://github.com/iwhotao/dsh-deepseek-web-embed/issues
 
 # Install target
 # Run `npm run rename-package` (or follow docs/PUBLISHING.md) before publishing.

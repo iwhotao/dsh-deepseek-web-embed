@@ -3,14 +3,14 @@
   "version": "1.0.2",
   "description": "Embed chat.deepseek.com in a dedicated DeepSeek Harness page. Your own account, your own browser session, fully separate from DSH conversations.",
   "license": "MIT",
-  "author": "whotao",
+  "author": "iwhotao",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whotao/dsh-deepseek-web-embed.git"
+    "url": "git+https://github.com/iwhotao/dsh-deepseek-web-embed.git"
   },
-  "homepage": "https://github.com/whotao/dsh-deepseek-web-embed",
+  "homepage": "https://github.com/iwhotao/dsh-deepseek-web-embed",
   "bugs": {
-    "url": "https://github.com/whotao/dsh-deepseek-web-embed/issues"
+    "url": "https://github.com/iwhotao/dsh-deepseek-web-embed/issues"
   },
   "keywords": [
     "deepseek-harness",
